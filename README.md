@@ -10,11 +10,13 @@ signing a meta transaction.
 ### To run the sample:
 
 1. first clone and `yarn install`
-2. run `yarn ganache`
-3. Make sure you have Metamask installed, and pointing to "localhost"
-4. In a different window, run `yarn start`, to deploy the contract, and start the UI
-5. Start a browser pointing to "http://localhost:3000"
-6. Click the "Capture the Flag" button. Notice that you do need an account with eth for that..
+1. run `yarn init` and uncomment development network in `truffle-config.js`
+1. On mac, if you encounter `Error: error:0308010C:digital envelope routines::unsupported`, then run `export NODE_OPTIONS=--openssl-legacy-provider` as workaround.
+1. run `yarn ganache`
+1. Make sure you have Metamask installed, and pointing to "localhost"
+1. In a different window, run `yarn start`, to deploy the contract, and start the UI
+1. Start a browser pointing to "http://localhost:3000"
+1. Click the "Capture the Flag" button. Notice that you do need an account with eth for that..
 
 You can see the integrations as GitHub pull requests:
 
