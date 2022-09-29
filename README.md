@@ -9,11 +9,12 @@ signing a meta transaction.
 ### To run the sample:
 
 1. first clone and `yarn install`
-2. run `yarn gsn-with-ganache` to start a node, and also deploy GSN contracts and start a relayer service.
-3. Make sure you have Metamask installed, and pointing to "localhost"
-4. In a different window, run `yarn start`, to deploy the contract, and start the UI
-5. Start a browser pointing to "http://localhost:3000"
-6. Click the "Capture the Flag" button. Notice that you don't need eth in your account: You only sign the transaction.
+1. run `truffle init` and enter `N` on all steps.
+1. run `yarn gsn-with-ganache` to start a node, and also deploy GSN contracts and start a relayer service.
+1. Make sure you have Metamask installed, and pointing to "localhost"
+1. In a different window, run `yarn start`, to deploy the contract, and start the UI
+1. Start a browser pointing to "http://localhost:3000"
+1. Click the "Capture the Flag" button. Notice that you don't need eth in your account: You only sign the transaction.
 
 You can see the integrations as GitHub pull requests:
 
