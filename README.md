@@ -10,7 +10,7 @@ signing a meta transaction.
 ### To run the sample:
 
 1. first clone and `yarn install`
-1. run `yarn init` and uncomment development network in `truffle-config.js`
+1. run `truffle init`, press N on all steps and uncomment development network in `truffle-config.js`
 1. On mac, if you encounter `Error: error:0308010C:digital envelope routines::unsupported`, then run `export NODE_OPTIONS=--openssl-legacy-provider` as workaround.
 1. run `yarn ganache`
 1. Make sure you have Metamask installed, and pointing to "localhost"
